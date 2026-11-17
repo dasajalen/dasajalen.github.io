@@ -1,0 +1,166 @@
+/* =========================================
+   FONTS
+   ========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+
+/* =========================================
+   GENERAL LAYOUT
+   ========================================= */
+
+#quarto-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #FCFCFA;
+  color: #38312F;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8;
+}
+
+/* Paragraph alignment on regular pages */
+p {
+  text-align: justify;
+}
+
+
+/* =========================================
+   TYPOGRAPHY
+   ========================================= */
+
+/* Section headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', sans-serif;
+  color: #596B60;
+}
+
+/* Main page titles */
+h1.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+  color: #354C3D;
+}
+
+/* Homepage subtitle */
+p.subtitle {
+  font-family: 'Lato', sans-serif;
+  color: #596B60;
+  font-size: 1.3rem;
+}
+
+/* Links */
+a {
+  color: #596B60;
+}
+
+a:hover {
+  color: #354C3D;
+}
+
+
+/* =========================================
+   NAVIGATION BAR
+   ========================================= */
+
+.navbar {
+  background-color: #FCFCFA !important;
+  border-bottom: none;
+}
+
+/* Navigation links and site name */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #38312F !important;
+  font-size: 0.85rem;
+}
+
+/* Navigation hover */
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: #354C3D !important;
+}
+
+
+/* =========================================
+   TABLE OF CONTENTS
+   ========================================= */
+
+#TOC .nav-link.active {
+  color: #354C3D !important;
+  border-left-color: #354C3D !important;
+}
+
+#TOC .nav-link:hover {
+  color: #354C3D !important;
+}
+
+
+/* =========================================
+   PROJECT GALLERY
+   ========================================= */
+
+.post-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.post-gallery p {
+  margin: 0;
+}
+
+.post-gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* =========================================
+   HOMEPAGE ONLY
+   ========================================= */
+
+/* Center the homepage layout */
+body.homepage #quarto-content {
+  display: block;
+}
+
+body.homepage main.content {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Center title and subtitle */
+body.homepage .quarto-title-block {
+  text-align: center;
+}
+
+/* Center homepage paragraphs */
+body.homepage main.content p {
+  text-align: center;
+}
+
+/* Center the two homepage columns */
+body.homepage .columns,
+body.homepage .columns .column {
+  text-align: center;
+}
+
+/* Center column headings */
+body.homepage .columns h3 {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Remove heading anchor icons that affect alignment */
+body.homepage .columns h3 .anchorjs-link {
+  display: none !important;
+}

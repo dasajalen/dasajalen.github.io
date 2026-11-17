@@ -1,0 +1,29 @@
+---
+title: "Daša Jalen"
+subtitle: "Psychology, methodology and data science."
+body-classes: homepage
+---
+
+Hi, I'm Daša! I'm a psychology graduate currently pursuing a master's degree in Methodology, Statistics and Data Science at Utrecht University in the Netherlands. This is my personal portfolio of things I've worked on and possible future projects.
+
+---
+
+::: {.columns}
+
+::: {.column width="50%"}
+### About me
+
+My background, current studies and interests.
+
+[Read all about it](about.qmd)
+:::
+
+::: {.column width="50%"}
+### Things I've worked on
+
+For now mostly undergraduate psychology projects.
+
+[Check it out](projects.qmd)
+:::
+
+:::
